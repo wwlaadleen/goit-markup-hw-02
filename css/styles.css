@@ -1,0 +1,251 @@
+:root {
+    --main-color: #2196F3;
+}
+
+:root {
+    --mainbtn-hover-color: #F5F4FA;
+}
+
+:root {
+    --main-text-color: #212121;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo:hover{
+    color: #2196F3;
+}
+
+.logo:focus{
+    color: #2196F3;
+}
+
+.logo-first-word {
+    color: var(--main-color);
+}
+
+.navbtn{
+    color: #212121;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navbtn:hover{
+    color: #2196F3;
+}
+
+.navbtn:focus{
+    color: #2196F3;
+}
+
+.main-btn{
+    background-color: #2196F3;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.main-btn:hover{
+    background-color: #F5F4FA;
+    color: var(--text-hover-color);
+}
+
+.main-btn:focus{
+    background-color: #F5F4FA;
+    color: var(--text-hover-color);
+}
+
+.mail{
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.phone-number{
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mail:hover{
+    color: var(--main-color);
+}
+
+.phone-number:hover{
+    color: var(--main-color);
+}
+
+.mail:focus{
+    color: var(--main-color);
+}
+
+.phone-number:focus{
+    color: var(--main-color);
+}
+
+.foot-mail{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.foot-phone-number{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.foot-mail:hover{
+    color: #2196F3;    
+}
+
+.foot-phone-number:hover{
+    color: #2196F3;
+}
+
+.foot-mail:focus{
+    color: #2196F3;
+}
+
+.foot-phone-number:focus{
+    color: #2196F3;
+}
+
+.btn{
+    cursor: pointer;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.btn:hover{
+    color: #F5F4FA;
+    background-color: #2196F3;
+}
+
+.btn:focus{
+    color: #F5F4FA;
+    background-color: #2196F3;
+}
+
+.main-motto{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36 ;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.company-properties{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.middle-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14 ;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.possibilities{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16 ;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.collegue-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.adrss{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFF;
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-category{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
