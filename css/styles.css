@@ -1,14 +1,9 @@
 :root {
     --main-color: #2196F3;
-}
-
-:root {
     --mainbtn-hover-color: #F5F4FA;
-}
-
-:root {
     --main-text-color: #212121;
 }
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -17,45 +12,37 @@ body{
 .logo{
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: black;
 }
 
-.logo:hover{
-    color: #2196F3;
-}
-
-.logo:focus{
-    color: #2196F3;
-}
 
 .logo-first-word {
     color: var(--main-color);
 }
 
-.navbtn{
-    color: #212121;
+.nav-btn{
+    color: var(--main-text-color);
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-.navbtn:hover{
-    color: #2196F3;
+.nav-btn:hover{
+    color: var(--main-color);
 }
 
-.navbtn:focus{
-    color: #2196F3;
+.nav-btn:focus{
+    color: var(--main-color);
 }
 
 .main-btn{
-    background-color: #2196F3;
+    background-color: var(--main-color);
     color: #FFF;
     font-weight: 700;
     font-size: 16px;
@@ -64,15 +51,16 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: 'Roboto';
 }
 
 .main-btn:hover{
-    background-color: #F5F4FA;
+    background-color: var(--mainbtn-hover-color);
     color: var(--text-hover-color);
 }
 
 .main-btn:focus{
-    background-color: #F5F4FA;
+    background-color: var(--mainbtn-hover-color);
     color: var(--text-hover-color);
 }
 
@@ -127,54 +115,54 @@ body{
 }
 
 .foot-mail:hover{
-    color: #2196F3;    
+    color: var(--main-color);    
 }
 
 .foot-phone-number:hover{
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 .foot-mail:focus{
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 .foot-phone-number:focus{
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 .btn{
     cursor: pointer;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--main-text-color);
+    background-color: var(--mainbtn-hover-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: 'Roboto';
 }
 
 .btn:hover{
-    color: #F5F4FA;
-    background-color: #2196F3;
+    color: var(--mainbtn-hover-color);
+    background-color: var(--main-color);
 }
 
 .btn:focus{
-    color: #F5F4FA;
-    background-color: #2196F3;
+    color: var(--mainbtn-hover-color);
+    background-color: var(--main-color);
 }
 
 .main-motto{
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36 ;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFF;
 }
 
 .company-properties{
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -182,43 +170,39 @@ body{
 }
 
 .middle-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14 ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .possibilities{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16 ;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .our-team{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .collegue-name{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .position{
@@ -226,6 +210,7 @@ body{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .adrss{
