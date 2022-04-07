@@ -2,6 +2,10 @@
     --main-color: #2196F3;
     --mainbtn-hover-color: #F5F4FA;
     --main-text-color: #212121;
+    --support-color: #757575;
+    --main-logo-color: black;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --main-white: white;
 }
 
 
@@ -16,7 +20,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: black;
+    color: var(--main-text-color);
 }
 
 
@@ -43,7 +47,7 @@ body{
 
 .main-btn{
     background-color: var(--main-color);
-    color: #FFF;
+    color: var(--main-white);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -66,7 +70,7 @@ body{
 
 .mail{
     text-decoration: none;
-    color: #757575;
+    color: var(--support-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,7 +79,7 @@ body{
 
 .phone-number{
     text-decoration: none;
-    color: #757575;
+    color: var(--support-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -99,7 +103,7 @@ body{
 }
 
 .foot-mail{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
@@ -107,7 +111,7 @@ body{
 }
 
 .foot-phone-number{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
@@ -159,14 +163,14 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFF;
+    color: var(--main-white);
 }
 
 .company-properties{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--support-color);
 }
 
 .middle-title{
@@ -210,14 +214,14 @@ body{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--support-color);
 }
 
 .adrss{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFF;
+    color: var(--main-white);
 }
 
 .project-name{
@@ -225,12 +229,12 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .project-category{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--support-color);
 }
